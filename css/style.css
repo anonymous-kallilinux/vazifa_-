@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+body {
+    background-color: rgb(22, 187, 160);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 60px;
+    border-radius: 15px;
+}
+
+.blok {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.blok1 .title,
+.blok1 .cost {
+    color: grey;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.blok2 .title,
+.blok2 .cost {
+    color: orange;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.blok3 .title,
+.blok3 .cost {
+    color: crimson;
+    font-size: 35px;
+    font-weight: bold;
+}
